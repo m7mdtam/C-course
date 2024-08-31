@@ -73,7 +73,16 @@ printf("The value of y is %f  and the value of x is %d \n",y,x); // will print t
 bool j = true ; //to use boolean you should call the library
 printf("the boolean value is %d " , j ); // will print 1 (we used %d cause it's decimal number)
 double sum = x + y ;
-printf(" the sum of x and y is %i + %f = %f  " , x,y,x+y); //will print 10.500000 
-printf(" the sum of x and y is %i + %f = %f  " , x,y,sum); //will print 10.500000
+printf(" the sum of x and y is %i + %f = %f \n " , x,y,x+y); //will print 10.500000 
+printf(" the sum of x and y is %i + %f = %f \n " , x,y,sum); //will print 10.500000
+
+
+//forth class : get user inputs 
+char name[100] ; 
+printf("Enter your name : ");
+scanf("%s",&name);// &name (memory location address) , input ex:(mohammed)
+printf("Your name is %s\n",name); // will print your name is mohammed
+
+
 
 }
