@@ -118,7 +118,12 @@ int s = 2 ;
 if(s>10){
 printf("s is greater than 10 and s = %d",s);
 }
-else{
+else if(s==2){
     printf("s is less than 10 and s = %d",s);
 }
+else if (s==3)
+{
+    printf("s is equal to 3 and s = %d",s);
+}
+
 }
