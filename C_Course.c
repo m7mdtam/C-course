@@ -84,5 +84,21 @@ scanf("%s",&name);// &name (memory location address) , input ex:(mohammed)
 printf("Your name is %s\n",name); // will print your name is mohammed
 
 
+/*fifth class : Arthemtic operator 
+1- addition : a + b
+2- subtraction : a - b
+3- multiplicatins : a * b
+4- division : a / b
+5- reminder : a % b
+*/
+int p = 5;
+int l = 2 ;
+int result = p+l ;
+printf("x+y = %d\n",result);// will print x+y=10
+printf("x+y = %d\n",p+l);// will print x+y=10
+printf("x-y = %d\n",p-l);
+printf("x*y = %d\n",p*l);
+printf("x/y = %d\n",p/l);// will print int number
+printf("x%%y = %d\n",p % l);//will print reminder
 
 }
