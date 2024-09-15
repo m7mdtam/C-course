@@ -101,4 +101,24 @@ printf("x*y = %d\n",p*l);
 printf("x/y = %d\n",p/l);// will print int number
 printf("x%%y = %d\n",p % l);//will print reminder
 
+/*sixth class : if statment 
+if(condition){
+excute the codes
+}
+conditions : 
+> greater than
+< less than
+== equal
+<= less than or equal
+>= greater than or equal
+!= not equal
+*/
+
+int s = 2 ; 
+if(s>10){
+printf("s is greater than 10 and s = %d",s);
+}
+else{
+    printf("s is less than 10 and s = %d",s);
+}
 }
